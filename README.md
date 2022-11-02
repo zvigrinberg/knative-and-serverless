@@ -54,7 +54,7 @@ kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1
 
 9. Installing a demo serverless service
 ```shell
-kn service create helloworld-go --image gcr.io/knative-samples/helloworld-go
+[zgrinber@zgrinber knative-and-serverless]$ kn service create helloworld-go --image gcr.io/knative-samples/helloworld-go
 Creating service 'helloworld-go' in namespace 'default':
 
   0.092s The Route is still working to reflect the latest desired specification.
